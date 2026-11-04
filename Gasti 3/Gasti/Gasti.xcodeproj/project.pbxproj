@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8A44BAE30914B23000B7E02 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A44BAD30914B23000B7E02 /* LoginView.swift */; };
+		C8A44BB1309155F0000B7E02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8A44BB0309155F0000B7E02 /* GoogleService-Info.plist */; };
+		C8DE6613308FDC6D00F56E34 /* GastiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE6612308FDC6D00F56E34 /* GastiApp.swift */; };
+		C8DE6617308FDC7700F56E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DE6616308FDC7700F56E34 /* Assets.xcassets */; };
+		C8DE661A308FDC7700F56E34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DE6619308FDC7700F56E34 /* Preview Assets.xcassets */; };
+		C8DE6624308FDC7700F56E34 /* GastiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE6623308FDC7700F56E34 /* GastiTests.swift */; };
+		C8DE662E308FDC7700F56E34 /* GastiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE662D308FDC7700F56E34 /* GastiUITests.swift */; };
+		C8DE6630308FDC7700F56E34 /* GastiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE662F308FDC7700F56E34 /* GastiUITestsLaunchTests.swift */; };
+		C8DE663E308FDF3700F56E34 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE663D308FDF3700F56E34 /* Transaction.swift */; };
+		C8DE6644308FDFFA00F56E34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE6643308FDFFA00F56E34 /* ContentView.swift */; };
+		C8DE6646308FE00400F56E34 /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE6645308FE00400F56E34 /* BudgetView.swift */; };
+		C8DE6648308FE01100F56E34 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE6647308FE01100F56E34 /* CreditsView.swift */; };
+		C8DE664A308FE01B00F56E34 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE6649308FE01B00F56E34 /* AddTransactionView.swift */; };
+		C8DE664C308FE02100F56E34 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE664B308FE02100F56E34 /* HomeView.swift */; };
+		C8DE664E308FE02800F56E34 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE664D308FE02800F56E34 /* StatisticsView.swift */; };
+		C8DE6650308FE03B00F56E34 /* APIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE664F308FE03B00F56E34 /* APIView.swift */; };
+		C8DE6653308FE06600F56E34 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE6652308FE06600F56E34 /* APIService.swift */; };
+		C8DE6659308FE32D00F56E34 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE6658308FE32C00F56E34 /* Budget.swift */; };
+		C8DE665B308FEB6900F56E34 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE665A308FEB6900F56E34 /* PersistenceService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8DE6620308FDC7700F56E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8DE6607308FDC6D00F56E34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8DE660E308FDC6D00F56E34;
+			remoteInfo = Gasti;
+		};
+		C8DE662A308FDC7700F56E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8DE6607308FDC6D00F56E34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8DE660E308FDC6D00F56E34;
+			remoteInfo = Gasti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8A44BAD30914B23000B7E02 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C8A44BB0309155F0000B7E02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8DE660F308FDC6D00F56E34 /* Gasti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gasti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DE6612308FDC6D00F56E34 /* GastiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastiApp.swift; sourceTree = "<group>"; };
+		C8DE6616308FDC7700F56E34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8DE6619308FDC7700F56E34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8DE661F308FDC7700F56E34 /* GastiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GastiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DE6623308FDC7700F56E34 /* GastiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastiTests.swift; sourceTree = "<group>"; };
+		C8DE6629308FDC7700F56E34 /* GastiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GastiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DE662D308FDC7700F56E34 /* GastiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastiUITests.swift; sourceTree = "<group>"; };
+		C8DE662F308FDC7700F56E34 /* GastiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8DE663D308FDF3700F56E34 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		C8DE6643308FDFFA00F56E34 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8DE6645308FE00400F56E34 /* BudgetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BudgetView.swift; path = ../../../../Downloads/GastiSwift/Views/BudgetView.swift; sourceTree = "<group>"; };
+		C8DE6647308FE01100F56E34 /* CreditsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreditsView.swift; path = ../../../../Downloads/GastiSwift/Views/CreditsView.swift; sourceTree = "<group>"; };
+		C8DE6649308FE01B00F56E34 /* AddTransactionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddTransactionView.swift; path = ../../../../Downloads/GastiSwift/Views/AddTransactionView.swift; sourceTree = "<group>"; };
+		C8DE664B308FE02100F56E34 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ../../../../Downloads/GastiSwift/Views/HomeView.swift; sourceTree = "<group>"; };
+		C8DE664D308FE02800F56E34 /* StatisticsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatisticsView.swift; path = ../../../../Downloads/GastiSwift/Views/StatisticsView.swift; sourceTree = "<group>"; };
+		C8DE664F308FE03B00F56E34 /* APIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIView.swift; path = ../../../../Downloads/GastiSwift/Views/APIView.swift; sourceTree = "<group>"; };
+		C8DE6652308FE06600F56E34 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIService.swift; path = ../../../../Downloads/GastiSwift/Services/APIService.swift; sourceTree = "<group>"; };
+		C8DE6658308FE32C00F56E34 /* Budget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Budget.swift; path = ../../../../Downloads/GastiSwift/Models/Budget.swift; sourceTree = "<group>"; };
+		C8DE665A308FEB6900F56E34 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8DE660C308FDC6D00F56E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE661C308FDC7700F56E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE6626308FDC7700F56E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8DE6606308FDC6D00F56E34 = {
+			isa = PBXGroup;
+			children = (
+				C8DE6611308FDC6D00F56E34 /* Gasti */,
+				C8DE6622308FDC7700F56E34 /* GastiTests */,
+				C8DE662C308FDC7700F56E34 /* GastiUITests */,
+				C8DE6610308FDC6D00F56E34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8DE6610308FDC6D00F56E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE660F308FDC6D00F56E34 /* Gasti.app */,
+				C8DE661F308FDC7700F56E34 /* GastiTests.xctest */,
+				C8DE6629308FDC7700F56E34 /* GastiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8DE6611308FDC6D00F56E34 /* Gasti */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE6657308FE1B900F56E34 /* Persistence */,
+				C8DE6656308FE1A400F56E34 /* ViewModels */,
+				C8DE6651308FE05A00F56E34 /* Services */,
+				C8DE6642308FDFC400F56E34 /* Views */,
+				C8DE663C308FDF1800F56E34 /* Models */,
+				C8DE6612308FDC6D00F56E34 /* GastiApp.swift */,
+				C8DE6643308FDFFA00F56E34 /* ContentView.swift */,
+				C8A44BB0309155F0000B7E02 /* GoogleService-Info.plist */,
+				C8DE6616308FDC7700F56E34 /* Assets.xcassets */,
+				C8DE6618308FDC7700F56E34 /* Preview Content */,
+			);
+			path = Gasti;
+			sourceTree = "<group>";
+		};
+		C8DE6618308FDC7700F56E34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE6619308FDC7700F56E34 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8DE6622308FDC7700F56E34 /* GastiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE6623308FDC7700F56E34 /* GastiTests.swift */,
+			);
+			path = GastiTests;
+			sourceTree = "<group>";
+		};
+		C8DE662C308FDC7700F56E34 /* GastiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE662D308FDC7700F56E34 /* GastiUITests.swift */,
+				C8DE662F308FDC7700F56E34 /* GastiUITestsLaunchTests.swift */,
+			);
+			path = GastiUITests;
+			sourceTree = "<group>";
+		};
+		C8DE663C308FDF1800F56E34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE6658308FE32C00F56E34 /* Budget.swift */,
+				C8DE663D308FDF3700F56E34 /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C8DE6642308FDFC400F56E34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE664F308FE03B00F56E34 /* APIView.swift */,
+				C8DE664D308FE02800F56E34 /* StatisticsView.swift */,
+				C8DE664B308FE02100F56E34 /* HomeView.swift */,
+				C8DE6649308FE01B00F56E34 /* AddTransactionView.swift */,
+				C8DE6647308FE01100F56E34 /* CreditsView.swift */,
+				C8DE6645308FE00400F56E34 /* BudgetView.swift */,
+				C8A44BAD30914B23000B7E02 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C8DE6651308FE05A00F56E34 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE6652308FE06600F56E34 /* APIService.swift */,
+				C8DE665A308FEB6900F56E34 /* PersistenceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C8DE6656308FE1A400F56E34 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C8DE6657308FE1B900F56E34 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8DE660E308FDC6D00F56E34 /* Gasti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8DE6633308FDC7700F56E34 /* Build configuration list for PBXNativeTarget "Gasti" */;
+			buildPhases = (
+				C8DE660B308FDC6D00F56E34 /* Sources */,
+				C8DE660C308FDC6D00F56E34 /* Frameworks */,
+				C8DE660D308FDC6D00F56E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gasti;
+			productName = Gasti;
+			productReference = C8DE660F308FDC6D00F56E34 /* Gasti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8DE661E308FDC7700F56E34 /* GastiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8DE6636308FDC7700F56E34 /* Build configuration list for PBXNativeTarget "GastiTests" */;
+			buildPhases = (
+				C8DE661B308FDC7700F56E34 /* Sources */,
+				C8DE661C308FDC7700F56E34 /* Frameworks */,
+				C8DE661D308FDC7700F56E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8DE6621308FDC7700F56E34 /* PBXTargetDependency */,
+			);
+			name = GastiTests;
+			productName = GastiTests;
+			productReference = C8DE661F308FDC7700F56E34 /* GastiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8DE6628308FDC7700F56E34 /* GastiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8DE6639308FDC7700F56E34 /* Build configuration list for PBXNativeTarget "GastiUITests" */;
+			buildPhases = (
+				C8DE6625308FDC7700F56E34 /* Sources */,
+				C8DE6626308FDC7700F56E34 /* Frameworks */,
+				C8DE6627308FDC7700F56E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8DE662B308FDC7700F56E34 /* PBXTargetDependency */,
+			);
+			name = GastiUITests;
+			productName = GastiUITests;
+			productReference = C8DE6629308FDC7700F56E34 /* GastiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8DE6607308FDC6D00F56E34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C8DE660E308FDC6D00F56E34 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C8DE661E308FDC7700F56E34 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C8DE660E308FDC6D00F56E34;
+					};
+					C8DE6628308FDC7700F56E34 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C8DE660E308FDC6D00F56E34;
+					};
+				};
+			};
+			buildConfigurationList = C8DE660A308FDC6D00F56E34 /* Build configuration list for PBXProject "Gasti" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8DE6606308FDC6D00F56E34;
+			packageReferences = (
+				C8A44BAF309151A1000B7E02 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C8DE6610308FDC6D00F56E34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8DE660E308FDC6D00F56E34 /* Gasti */,
+				C8DE661E308FDC7700F56E34 /* GastiTests */,
+				C8DE6628308FDC7700F56E34 /* GastiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8DE660D308FDC6D00F56E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DE661A308FDC7700F56E34 /* Preview Assets.xcassets in Resources */,
+				C8DE6617308FDC7700F56E34 /* Assets.xcassets in Resources */,
+				C8A44BB1309155F0000B7E02 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE661D308FDC7700F56E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE6627308FDC7700F56E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8DE660B308FDC6D00F56E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DE664C308FE02100F56E34 /* HomeView.swift in Sources */,
+				C8DE665B308FEB6900F56E34 /* PersistenceService.swift in Sources */,
+				C8DE664E308FE02800F56E34 /* StatisticsView.swift in Sources */,
+				C8DE6659308FE32D00F56E34 /* Budget.swift in Sources */,
+				C8DE6648308FE01100F56E34 /* CreditsView.swift in Sources */,
+				C8DE6646308FE00400F56E34 /* BudgetView.swift in Sources */,
+				C8DE6650308FE03B00F56E34 /* APIView.swift in Sources */,
+				C8DE6644308FDFFA00F56E34 /* ContentView.swift in Sources */,
+				C8DE6613308FDC6D00F56E34 /* GastiApp.swift in Sources */,
+				C8DE664A308FE01B00F56E34 /* AddTransactionView.swift in Sources */,
+				C8A44BAE30914B23000B7E02 /* LoginView.swift in Sources */,
+				C8DE6653308FE06600F56E34 /* APIService.swift in Sources */,
+				C8DE663E308FDF3700F56E34 /* Transaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE661B308FDC7700F56E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DE6624308FDC7700F56E34 /* GastiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE6625308FDC7700F56E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DE662E308FDC7700F56E34 /* GastiUITests.swift in Sources */,
+				C8DE6630308FDC7700F56E34 /* GastiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8DE6621308FDC7700F56E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8DE660E308FDC6D00F56E34 /* Gasti */;
+			targetProxy = C8DE6620308FDC7700F56E34 /* PBXContainerItemProxy */;
+		};
+		C8DE662B308FDC7700F56E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8DE660E308FDC6D00F56E34 /* Gasti */;
+			targetProxy = C8DE662A308FDC7700F56E34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8DE6631308FDC7700F56E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8DE6632308FDC7700F56E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8DE6634308FDC7700F56E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gasti/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.unicauca.aplimovil.proyecdctogasti.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8DE6635308FDC7700F56E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gasti/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.unicauca.aplimovil.proyecdctogasti.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C8DE6637308FDC7700F56E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = universidaddecauca.edu.co.GastiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gasti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gasti";
+			};
+			name = Debug;
+		};
+		C8DE6638308FDC7700F56E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = universidaddecauca.edu.co.GastiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gasti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gasti";
+			};
+			name = Release;
+		};
+		C8DE663A308FDC7700F56E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = universidaddecauca.edu.co.GastiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gasti;
+			};
+			name = Debug;
+		};
+		C8DE663B308FDC7700F56E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = universidaddecauca.edu.co.GastiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gasti;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8DE660A308FDC6D00F56E34 /* Build configuration list for PBXProject "Gasti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DE6631308FDC7700F56E34 /* Debug */,
+				C8DE6632308FDC7700F56E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8DE6633308FDC7700F56E34 /* Build configuration list for PBXNativeTarget "Gasti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DE6634308FDC7700F56E34 /* Debug */,
+				C8DE6635308FDC7700F56E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8DE6636308FDC7700F56E34 /* Build configuration list for PBXNativeTarget "GastiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DE6637308FDC7700F56E34 /* Debug */,
+				C8DE6638308FDC7700F56E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8DE6639308FDC7700F56E34 /* Build configuration list for PBXNativeTarget "GastiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DE663A308FDC7700F56E34 /* Debug */,
+				C8DE663B308FDC7700F56E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C8A44BAF309151A1000B7E02 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk?utm_source=chatgpt.com";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = C8DE6607308FDC6D00F56E34 /* Project object */;
+}
