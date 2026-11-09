@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8506EBB309B9B10004D0D7B /* SupabaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8506EBA309B9B10004D0D7B /* SupabaseAuthService.swift */; };
+		C8506EBD309B9B44004D0D7B /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8506EBC309B9B44004D0D7B /* RegisterView.swift */; };
+		C8506EBF309BA987004D0D7B /* GastosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8506EBE309BA987004D0D7B /* GastosView.swift */; };
 		C8A44BAE30914B23000B7E02 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A44BAD30914B23000B7E02 /* LoginView.swift */; };
-		C8A44BB1309155F0000B7E02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8A44BB0309155F0000B7E02 /* GoogleService-Info.plist */; };
 		C8DE6613308FDC6D00F56E34 /* GastiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE6612308FDC6D00F56E34 /* GastiApp.swift */; };
 		C8DE6617308FDC7700F56E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DE6616308FDC7700F56E34 /* Assets.xcassets */; };
 		C8DE661A308FDC7700F56E34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DE6619308FDC7700F56E34 /* Preview Assets.xcassets */; };
@@ -46,8 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C8506EBA309B9B10004D0D7B /* SupabaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseAuthService.swift; sourceTree = "<group>"; };
+		C8506EBC309B9B44004D0D7B /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		C8506EBE309BA987004D0D7B /* GastosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosView.swift; sourceTree = "<group>"; };
 		C8A44BAD30914B23000B7E02 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		C8A44BB0309155F0000B7E02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C8DE660F308FDC6D00F56E34 /* Gasti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gasti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DE6612308FDC6D00F56E34 /* GastiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastiApp.swift; sourceTree = "<group>"; };
 		C8DE6616308FDC7700F56E34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -118,14 +122,11 @@
 		C8DE6611308FDC6D00F56E34 /* Gasti */ = {
 			isa = PBXGroup;
 			children = (
-				C8DE6657308FE1B900F56E34 /* Persistence */,
-				C8DE6656308FE1A400F56E34 /* ViewModels */,
 				C8DE6651308FE05A00F56E34 /* Services */,
 				C8DE6642308FDFC400F56E34 /* Views */,
 				C8DE663C308FDF1800F56E34 /* Models */,
 				C8DE6612308FDC6D00F56E34 /* GastiApp.swift */,
 				C8DE6643308FDFFA00F56E34 /* ContentView.swift */,
-				C8A44BB0309155F0000B7E02 /* GoogleService-Info.plist */,
 				C8DE6616308FDC7700F56E34 /* Assets.xcassets */,
 				C8DE6618308FDC7700F56E34 /* Preview Content */,
 			);
@@ -176,6 +177,8 @@
 				C8DE6647308FE01100F56E34 /* CreditsView.swift */,
 				C8DE6645308FE00400F56E34 /* BudgetView.swift */,
 				C8A44BAD30914B23000B7E02 /* LoginView.swift */,
+				C8506EBC309B9B44004D0D7B /* RegisterView.swift */,
+				C8506EBE309BA987004D0D7B /* GastosView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,22 +188,9 @@
 			children = (
 				C8DE6652308FE06600F56E34 /* APIService.swift */,
 				C8DE665A308FEB6900F56E34 /* PersistenceService.swift */,
+				C8506EBA309B9B10004D0D7B /* SupabaseAuthService.swift */,
 			);
 			path = Services;
-			sourceTree = "<group>";
-		};
-		C8DE6656308FE1A400F56E34 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		C8DE6657308FE1B900F56E34 /* Persistence */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Persistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,7 +302,6 @@
 			files = (
 				C8DE661A308FDC7700F56E34 /* Preview Assets.xcassets in Resources */,
 				C8DE6617308FDC7700F56E34 /* Assets.xcassets in Resources */,
-				C8A44BB1309155F0000B7E02 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,10 +327,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8DE664C308FE02100F56E34 /* HomeView.swift in Sources */,
+				C8506EBB309B9B10004D0D7B /* SupabaseAuthService.swift in Sources */,
 				C8DE665B308FEB6900F56E34 /* PersistenceService.swift in Sources */,
 				C8DE664E308FE02800F56E34 /* StatisticsView.swift in Sources */,
 				C8DE6659308FE32D00F56E34 /* Budget.swift in Sources */,
 				C8DE6648308FE01100F56E34 /* CreditsView.swift in Sources */,
+				C8506EBD309B9B44004D0D7B /* RegisterView.swift in Sources */,
+				C8506EBF309BA987004D0D7B /* GastosView.swift in Sources */,
 				C8DE6646308FE00400F56E34 /* BudgetView.swift in Sources */,
 				C8DE6650308FE03B00F56E34 /* APIView.swift in Sources */,
 				C8DE6644308FDFFA00F56E34 /* ContentView.swift in Sources */,

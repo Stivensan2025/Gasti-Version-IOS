@@ -1,8 +1,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    @AppStorage("gasti_is_logged_in") private var isLoggedIn = false
-    @AppStorage("gasti_user_email") private var userEmail = ""
+
+    @AppStorage("gasti_is_logged_in")
+    private var isLoggedIn = false
+
+    @AppStorage("gasti_user_email")
+    private var userEmail = ""
 
     var body: some View {
         Group {
@@ -20,6 +24,7 @@ struct ContentView: View {
 
     private var mainTabs: some View {
         TabView {
+
             HomeView()
                 .tabItem {
                     Label("Inicio", systemImage: "house.fill")
@@ -35,21 +40,26 @@ struct ContentView: View {
                     Label("Estadísticas", systemImage: "chart.bar.fill")
                 }
 
-            APIView()
+            GastosView()
                 .tabItem {
-                    Label("API", systemImage: "globe")
+                    Label("Gastos", systemImage: "plus.circle.fill")
                 }
 
-            CreditsView()
-                .tabItem {
-                    Label("Créditos", systemImage: "person.crop.circle")
-                }
+            CreditsView(onLogout: {
+                // Cerrar la sesión local y volver al inicio de sesión.
+                isLoggedIn = false
+                userEmail = ""
+            })
+            .tabItem {
+                Label("Perfil", systemImage: "person.crop.circle")
+            }
         }
         .accentColor(GastiStyle.accent)
     }
 }
 
 enum GastiStyle {
+
     static let background = Color(
         red: 5.0 / 255,
         green: 11.0 / 255,
@@ -76,6 +86,7 @@ enum GastiStyle {
 }
 
 extension Double {
+
     var copCurrency: String {
         let formatter = NumberFormatter()
         formatter.numberStyle = .currency
@@ -84,6 +95,7 @@ extension Double {
         formatter.maximumFractionDigits = 0
         formatter.minimumFractionDigits = 0
 
-        return formatter.string(from: NSNumber(value: self)) ?? "$\(self)"
+        return formatter.string(from: NSNumber(value: self))
+            ?? "$\(self)"
     }
 }

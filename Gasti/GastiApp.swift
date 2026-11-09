@@ -1,12 +1,8 @@
+
 import SwiftUI
-import FirebaseCore
 
 @main
 struct GastiApp: App {
-
-    init() {
-        FirebaseApp.configure()
-    }
 
     var body: some Scene {
         WindowGroup {
